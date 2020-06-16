@@ -7,7 +7,6 @@ using NuGet.Server.Infrastructure;
 using NuGet.Server.V2;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(QingyunNugetServer.App_Start.NuGetODataConfig), "Start")]
-
 namespace QingyunNugetServer.App_Start 
 {
     public static class NuGetODataConfig 
